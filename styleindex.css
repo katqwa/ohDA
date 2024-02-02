@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f6f4;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FF1493;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #FF1493;
+    color: white;
+    padding: 20px 40px; /* Збільшено розмір кнопок */
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+#yesBtn {
+    margin-right: 20px;
+}
+
+#noBtn {
+    margin-left: 20px;
+}
+
+#noBtn:hover {
+    transform: translate(5px, -5px);
+    transition: transform 0.3s ease;
+}
